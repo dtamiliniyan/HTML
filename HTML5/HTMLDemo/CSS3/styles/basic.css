@@ -1,0 +1,108 @@
+@charset "utf-8";/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, header, footer, nav, video, article, section {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-family:Arial, Helvetica, sans-serif;
+	display:block;
+	text-align:justify;
+}
+#wrapper {
+	margin:0 auto;
+	width:980px;
+}
+#innerWrapper {
+	float:left;
+}
+article {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+header {
+	background-color:#bfbfbf;
+	width:100%;
+	clear:both;
+	margin:10px 0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+header h1 {
+	padding:25px 0;
+	margin:0 10px;
+	font-size:18px;
+}
+.sideRail {
+	background-color:#d9d9d9;
+	width:230px;
+	float:left;
+	height:400px;
+}
+.sideRail input {
+	background-color:#a6a6a6;
+	display:block;
+	padding:5px;
+	width:150px;
+	margin:10px auto;
+	border:1px solid #7f7f7f;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;
+}
+.sideRail input.selected {
+	background-color:#e2ecff;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2ecff', endColorstr='#a7c6ff');
+	background:-webkit-gradient(linear, left top, left bottom, from(#e2ecff), to(#a7c6ff));
+	background:-moz-linear-gradient(top, #e2ecff, #a7c6ff);
+	border:1px solid #4a7ebb;
+}
+.cnt {
+	background-color:#d9d9d9;
+	width:730px;
+	float:left;
+	height:400px;
+	margin-left:20px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.cnt .holder {
+padding-left:30px;
+}
+.cnt h2 {
+padding:10px;
+font-size:18px;
+}
+.cnt .holder article {
+width:200px;
+height:100px;
+border:1px solid #000;
+background-color:#C90;	
+float:left;
+margin:20px 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+video, audio {
+margin:0 30px;	
+}
+footer {
+	background-color:#bfbfbf;
+	padding:0 0 20px 0;
+	height:18px;
+	width:100%;
+	float:left;
+	margin-top:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+footer cite {
+	color:#000;
+	float:right;
+	margin:5px 10px 0 0;
+	font-size:11px;
+
+}

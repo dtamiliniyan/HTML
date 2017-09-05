@@ -1,0 +1,54 @@
+HTML 5
+
+HTML introduction.
+Environment required.
+Disadvantages of HTML 4.
+	--> Depending on third party plugins like flash
+	--> Doctype through knowledge required.
+	--> No direct support on Audio, Video, local session handling, Grapical drawing, Geolocation, Client side form validation.
+	--> Event handling is very limited.
+HTML 5 introduction & History
+	--> New structural elements (<header>, <footer>, <nav> and more) 
+	--> Forms 2.0 and client-side validation 
+	--> Native browser support for audio and video (<video>, <audio>) 
+	--> Web storage 
+	--> Geolocation 
+	--> Drag & Drop 
+	--> Web Workers 
+	--> New communications API (Server Sent Events, Web Sockets, …) 
+Why HTML5 & Advantages/Disadvantages.
+	--> Flash’ Usage in Website debate.
+	--> Dependency on third party plugins.
+	--> Audio and Video Playback without any Plug-in
+	--> Local Data Storage
+	--> client side database.
+
+Points to remember while using HTML5
+	--> No browsers have full HTML5 support as of now.
+	--> Latest version of browsers are supports HTML5. IE9.
+	--> HTML5 is not yet an official standard.
+	--> HTML5 is still a work in progress, so technically, any of the elements could change at any time.
+	--> HTML5 is not expected to be completed for several years, which complicates things further. 
+	--> No browsers have full HTML5 support.
+
+HTML5 New tags.
+	--> 28 tags.
+HTML deprecated tags & its alternatives
+
+
+CSS3:
+CSS is used to control the style and layout of Web pages 
+CSS3 is the latest standard for CSS
+
+	-->
+HTML New attributes
+	-->
+
+HTML deprecated attributes
+	-->
+Semantic elements
+	--> Helps to control the code more meaningfully. 
+	--> article    aside    figcaption    figure    footer    header    hgroup    mark    nav    section  time
+
+Legacy browser support:
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Demo</title>
+</head>
+<body>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  E-mail:
+  <input type="email" name="usremail" />
+  <br />
+  Add your homepage:
+  <input type="url" name="homepage" />
+  <br />
+  Webpage:
+  <input type="url" list="url_list" name="link" />
+  <datalist id="url_list">
+    <option label="W3Schools" value="http://www.w3schools.com" />
+    <option label="Google" value="http://www.google.com" />
+    <option label="Microsoft" value="http://www.microsoft.com" />
+  </datalist>
+   <br />
+  Username:
+  <input type="text" name="usr_name" />
+  Encryption:
+  <keygen name="security" />
+   <br />
+   Calculation:
+  <input type="range" name="a" value="0" />
+  +
+  <input type="number" name="b" value="50" />
+  =
+  <output name="x" for="a b"></output>
+   <br />
+  <input type="submit" />
+</form>
+</body>
+</html>
